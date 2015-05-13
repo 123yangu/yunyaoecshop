@@ -24,9 +24,6 @@ public class CommonConfig extends JFinalConfig {
 	}
 	
 	
-	/**
-	 * 路由设置
-	 */
 	@Override
 	public void configRoute(Routes me) {
 		me.add("/", LoginController.class);
