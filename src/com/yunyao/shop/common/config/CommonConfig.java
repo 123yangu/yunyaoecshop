@@ -22,7 +22,11 @@ public class CommonConfig extends JFinalConfig {
 		me.setViewType(ViewType.JSP);
 
 	}
-
+	
+	
+	/**
+	 * 路由设置
+	 */
 	@Override
 	public void configRoute(Routes me) {
 		me.add("/", LoginController.class);
